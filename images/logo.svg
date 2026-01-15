@@ -1,0 +1,49 @@
+<svg
+  width="160"
+  height="160"
+  viewBox="0 0 160 160"
+  xmlns="http://www.w3.org/2000/svg"
+  role="img"
+  aria-label="Abstract placeholder logo"
+>
+  <!-- Background circle -->
+  <circle cx="80" cy="80" r="76" fill="#F3F4F6" stroke="#D1D5DB" stroke-width="4" />
+
+  <!-- Abstract geometric design -->
+  <!-- Outer diamond -->
+  <polygon
+    points="80,45 110,80 80,115 50,80"
+    fill="#1f2937"
+    opacity="0.85"
+  />
+
+  <!-- Inner rotated square -->
+  <rect
+    x="65"
+    y="65"
+    width="30"
+    height="30"
+    transform="rotate(45 80 80)"
+    fill="#3882f6"
+  />
+
+  <!-- Center circle -->
+  <circle
+    cx="80"
+    cy="80"
+    r="10"
+    fill="#EEF2FF"
+  />
+
+  <!-- Placeholder text -->
+  <text
+    x="80"
+    y="135"
+    text-anchor="middle"
+    font-family="system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif"
+    font-size="14"
+    fill="#6B7280"
+  >
+    LOGO
+  </text>
+</svg>
