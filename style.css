@@ -14,7 +14,7 @@ ul {
     
 a {
     text-decoration: none;
-    color: white;
+    color: #e5e7eb;
 }
 
 .header {
@@ -29,4 +29,47 @@ a {
     padding: 0;
     align-items: flex-start;
     margin: 8px 16px;
+}
+
+.section-one {
+    display: flex;
+    background-color: #1f2937;
+    padding: 100px;
+    justify-content: center;
+    
+}
+
+.left-one {
+    display: flex;
+    flex-flow: column wrap;
+    width: 600px;
+    padding-right: 48px;
+}
+
+.left-one h1 {
+    color: #f9faf8;
+    font-size: 48px;
+    font-weight: 900;
+}
+
+.left-one p {
+    color: #e5e7eb;
+    font-size: 18px;
+}
+
+.left-one button {
+    width: 200px;
+    background-color: #3882f6;
+    padding: 16px;
+    border-radius: 16px;
+    color: #e5e7eb;
+    font-size: 16px;
+}
+
+.right-one {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: slategray;
+    width: 600px;
 }
