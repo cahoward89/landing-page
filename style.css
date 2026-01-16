@@ -107,3 +107,9 @@ a {
     border-radius: 8px;
     margin: 24px;
 }
+
+.section-two h2 {
+    font-size: 36px;
+    font-weight: 900;
+    color:#1f2937;
+}
