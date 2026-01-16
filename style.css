@@ -182,3 +182,15 @@ a {
     font-size: 16px;
 
 }
+.footer {
+    display: flex;
+    height: 100px;
+    justify-content: center;
+    align-items: center;
+    background-color: #1f2937;
+}
+
+.copy {
+    color: #f9faf8;
+    font-size: 18px;
+}
