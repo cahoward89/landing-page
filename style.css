@@ -73,3 +73,37 @@ a {
     background-color: slategray;
     width: 600px;
 }
+
+.section-two {
+    display: flex;
+    flex-direction: column;
+    gap: 48px;
+    align-items: center;
+    padding: 100px;
+}
+
+.two-lower {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 48px;
+}
+
+.container {
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    width: 200px;
+}
+
+.container p {
+    text-align: center;
+}
+
+.card {
+    border:#3882f6 solid;
+    width: 150px;
+    height: 150px;
+    border-radius: 8px;
+    margin: 24px;
+}
